@@ -8,10 +8,12 @@ namespace UserRegistrationValidation
     class Pattern
     {
         /// Starts with cap And have minimun of 3 character
-        public static string REGEX_FIRSTNAME = "^[A-Z]+[a-z]{2,}";
-        public bool ValidateFirstName(string firstName)
+        public static string REGEX_LASTNAME = "^[A-Z]+[a-z]{2,}";
+       
+        /// Method to find match with user input and regular expression specified
+        public bool ValidateLastName(string lastName)
         {
-            return Regex.IsMatch(firstName, REGEX_FIRSTNAME);
+            return Regex.IsMatch(lastName, REGEX_LASTNAME);
         }
 
     }

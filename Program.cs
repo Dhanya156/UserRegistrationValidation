@@ -10,10 +10,11 @@ namespace UserRegistrationValidation
         {
             ///Creating object for class pattern
             Pattern pattern = new Pattern();
-            Console.WriteLine("Enter the First name to validate");
+            Console.WriteLine("Enter the Last name to validate");
             ///Reading input from user
-            string firstName = Console.ReadLine();
-            Console.WriteLine(pattern.ValidateFirstName(firstName));
+            string lastName = Console.ReadLine();
+            //Calling a method to validate
+            Console.WriteLine(pattern.ValidateLastName(lastName));
         }
     }
 }
