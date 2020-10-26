@@ -8,7 +8,7 @@ namespace UserRegistrationValidation
         /// <param name="args">The arguments.</param>
         static void Main(string[] args)
         {
-            //Printing Welcome we
+            //Printing Welcome message
             Console.WriteLine("Welcome To User Registration Validation");
         }
     }
